@@ -1,33 +1,38 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
+import Main from "./components/main";
+import Jumbotron from './components/jumbotron'
+import Projects from './components/projects'
 
 function App() {
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">John Dixon</Navbar.Brand>
+
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar-color">
+        <Navbar.Brand href="/">John Dixon</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown>
+            {/* <Nav.Link href="/projects">Portfolio</Nav.Link> */}
+            <Nav.Link href="https://drive.google.com/open?id=19UdQuAqbVGgCTMMQFp7SJsj_Ts8tSymG"
+              target="_blank">Resume</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-      </Nav.Link>
+            <Nav.Link href="/contact">Contact Me </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Jumbotron />
+
+      <div>
+        <div className="page-content" />
+        <Main />
+
+      </div>
+      <div className="projects-div">
+        <Projects />
+      </div>
     </div>
   );
 }
