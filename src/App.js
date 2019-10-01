@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar-color">
+      <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar-color">
         <Navbar.Brand href="/">John Dixon</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

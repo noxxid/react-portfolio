@@ -18,11 +18,11 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     padding-top: 20px;
 }
 
-.navigations-buttons {
+.navigation-buttons {
     display: flex;
     justify-content: space-between;
     padding: 75px;
-    padding-top: 20px;
+    padding-bottom: 200px;
 }
 
 .jumbotron-words {
@@ -30,7 +30,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 }
 
 .aboutme-section {
-    /* padding: 75px; */
+   margin-top: 40px; 
 }
 
 #Card.Img {
@@ -44,4 +44,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 }
 .nav-item > .active {
     border-bottom: 1px solid #333;
+}
+
+.projects-div {
+    margin-top: 200px;
+    margin-bottom: 200px;
 }

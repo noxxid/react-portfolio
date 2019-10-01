@@ -20,7 +20,7 @@ class HomePage extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <div className="navigations-buttons">
+                        <div className="navigation-buttons">
                             <Button variant="dark" size="lg" href="https://drive.google.com/open?id=1RNm05B7YarvxyIu7T5Xph56WdeH4Fajg" target="_blank">Resume</Button>
                             <Button variant="dark" size="lg" href="#projects-div">Portfolio</Button>
                             <Button variant="dark" size="lg">Contact</Button>
