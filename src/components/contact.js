@@ -14,7 +14,6 @@ class Contact extends Component {
     }
 
     handleClose() {
-        this.props.loadData();
         this.setState({ show: false });
     }
 
@@ -25,21 +24,23 @@ class Contact extends Component {
     render() {
         return (
             <>
-                <Button variant="primary" onClick={this.handleShow}>
-                    Launch demo modal
+                <Button variant="dark" size="lg" onClick={this.handleShow}>
+                    Contact
                         </Button>
 
                 <Modal show={this.state.show} onHide={this.handleClose} centered>
                     <Modal.Header closeButton>
-                        <Modal.Title>Modal heading</Modal.Title>
+                        <Modal.Title>Contact Me</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                    <Modal.Body>
+                        <strong>Phone:</strong>
+                        <p>951-760-6198</p>
+                        <strong>Email</strong>
+                        <p>noxxid.john@gmail.com</p>
+                    </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={this.handleClose}>
                             Close
-                                </Button>
-                        <Button variant="primary" onClick={this.handleClose}>
-                            Save Changes
                                 </Button>
                     </Modal.Footer>
                 </Modal>
