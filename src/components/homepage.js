@@ -24,7 +24,29 @@ class HomePage extends Component {
                             </div>
                         </div>
                     </Col>
-                    <Col className="aboutme-section"><p>Hello my name is John, and I am a full stack web developer. My knowledge includes HTML, CSS, Javascript, JQuery, MySQL, MongoDB, Node, and React.</p></Col>
+                    <Col className="aboutme-section">
+                        <Row>
+                            <p>Web developer proficient in the MERN stack with an interest in further expanding knowledge and using expertise to collaborate on interesting and dynamic projects. Extremely adaptable and collaborative, with  skill in conflict resolution. Graduated from the University of Utah Coding Bootcamp. Seeking a job that offers ample opportunity to provide innovation while cultivating employee growth.</p>
+                        </Row>
+                        <Row className="skillsDetail">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>Bootstrap</li>
+                                <li>ReactJS</li>
+                            </ul>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Firebase</li>
+                                <li>MySQL</li>
+                                <li>Express</li>
+                                <li>Handlebars.js</li>
+                            </ul>
+                        </Row>
+                    </Col>
                 </Row>
                 <Row>
 

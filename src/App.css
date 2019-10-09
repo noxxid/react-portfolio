@@ -11,6 +11,12 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     margin: auto;
 }
 
+.skillsDetail {
+    margin-left: 10px;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
 .social-links i {
     color: black;
     font-size: 7em;
