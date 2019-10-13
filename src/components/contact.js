@@ -35,6 +35,7 @@ class Contact extends Component {
                     <Modal.Body>
                         <strong>Phone:</strong>
                         <p>951-760-6198</p>
+                        
                         <strong>Email</strong>
                         <p>noxxid.john@gmail.com</p>
                     </Modal.Body>
